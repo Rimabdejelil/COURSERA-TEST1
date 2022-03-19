@@ -58,7 +58,7 @@ for (/* fill in parts of the 'for' loop to loop over names array */ var i = 0; i
   // name in the loop.
   if (/* fill in condition here */ firstLetter == 'j') {
     // byeSpeaker.xxxx
-    byeSpeaker.speak(names[i]);
+    byeSpeaker.speak1(names[i]);
   } else {
     // helloSpeaker.xxxx
     helloSpeaker.speak(names[i]);
