@@ -8,15 +8,15 @@
 // See Lecture 52, part 1
 // var helloSpeaker =
 
-var ByeSpeaker = {};
+var helloSpeaker = {};
 
 // DO NOT attach the speakWord variable to the 'helloSpeaker' object.
-var speakWord = "GoodBye";
+var speakWord = "Hello";
 
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-ByeSpeaker.speak = function (name) {
+helloSpeaker.speak = function (name) {
   console.log(speakWord + " " + name);
 }
 
@@ -26,6 +26,6 @@ ByeSpeaker.speak = function (name) {
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
 // xxxx.xxxx = helloSpeaker;
 
-window.ByeSpeaker = ByeSpeaker;
+window.helloSpeaker = helloSpeaker;
 
 })(window);
